@@ -14,7 +14,7 @@ By creating a DuckDuckGo front-end clone:
  <br>
   
 # liveDemo
-check the **[Live-Demo](https://ameerabed.github.io/app-theme/)**.
+check the **[Live-Demo]()**.
 ![]() . 
  
  <br>
