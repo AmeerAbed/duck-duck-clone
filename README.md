@@ -20,3 +20,15 @@ check the **[Live-Demo]()**.
  <br>
   
  # steps
+- [x] Fork [duck-duck-clone](https://github.com/HackYourFutureBelgium/duck-duck-clone/).
+- [x] created basic indix.html and empty style.css .
+- [x] created section one search section branch.
+- [x] updated html and css for search section branch
+- [x] created section two privecy section .
+- [x] updated html and css for privecy section branch .
+- [x] created section three ghost section branch.
+- [x] updated html and css for ghost section branch .
+- [x] created section four shower section branch .
+- [x] updated shower section by added html and css.
+- [x] created section five flag section branch.
+- [x] updated flag section by added html and css.
