@@ -213,7 +213,18 @@ header {
 
 
 
+        /******* flag section*********** */
 
+.flag-section {
+    background-color: lightblue;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin:auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+    /* *************end section 5*********** */
 
 
 
