@@ -1,8 +1,8 @@
-# Development Strategy
+# Development Strategy :sunglasses:
 
 ## WireFrame
 
-> link to your wireframe.cc wireframe. (you can ignore the evaluation buttons in your wireframe)
+> checkout my **[WireFrame](https://wireframe.cc/8952Xj)**
 
 ## Steps Plan
 
