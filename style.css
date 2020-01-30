@@ -198,7 +198,18 @@ header {
     /* *************end section 3*********** */
 
 
+    /******* shower section*********** */
 
+.shower-section {
+    background-color: purple;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin:auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+    /* *************end section 4*********** */
 
 
 
