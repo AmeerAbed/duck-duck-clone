@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #c2bdbc;
+   }
+
+/****** header ( Navegation Bar) ******/
+header {
+    position: fixed;
+    margin: 0px auto;
+    /*    position: sticky;*/
+    }
+    
+    /*-------Nevegation bar--------*/
+    .nav-bar {
+        width: 98%;
+        margin: 0 auto;
+        position: fixed ;
+    /*    background-color: cadetblue;*/
+        z-index: 10;
+        font-weight: bold;
+    }
+    
+    .nav-bar h1{
+        color: aqua;
+    }
+    
+    .logo{
+        color: white;
+        float: left;
+    }
+    
+    nav {
+        float: right;
+        padding: 10px;
+    }
+    
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    nav li{
+        display: inline-block;
+        margin-left: 10px;
+        padding-top: 20px;
+        position: relative;
+        
+    }
+    
+    nav a{
+        color: grey;
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    nav a:hover {
+        color: black;
+    }
+
+    /*--for hovering animation--*/
+    nav a::before {
+      content: '';
+      display: block;
+      height: 5px;
+      background-color: aqua;
+    
+      position: absolute;
+      top: 0;
+      width: 0%;
+    
+      transition: all ease-in-out 250ms;
+    }
+    
+    nav a:hover::before {
+      width: 100%;
+    }
+    /*----*/
+
+    header::after{
+        content: '';
+        display: table;
+        clear: both;
+    }   
+    /*------------------End Nevegation Bar----------------------*/
+
+
+    /*------ section 1 - Sear-------- */
+    .search-section {
+        background-image: url("img/background.svg");
+        padding-left:1rem;
+        padding-right:1rem;
+        margin:auto;
+    }
+
+    .v-header{
+        height:100vh;
+        display:flex;
+        align-items:center;
+        color:#fff;
+      }
+      
+    
+       
+    .search-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #2f3640;
+        height: 40px;
+        border-radius: 40px;
+        padding: 10px;
+    }
+       
+       .search-box:hover > .search-txt {
+        width: 240px;
+        padding: 0 6px;
+       }
+       
+       .search-box:hover > .search-btn {
+        background: white;
+        color: black;
+       }
+       
+       .search-btn {
+        color: #e84118;
+        float: right;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #2f3640;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        color: white;
+        cursor: pointer;
+       }
+       
+       .search-btn > i {
+        font-size: 30px;
+        
+       }
+       
+       .search-txt {
+        border: none;
+        background: none;
+        outline: none;
+        float: left;
+        padding: 0;
+        color: white;
+        font-size: 16px;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 0px;
+        font-weight: bold;
+       }
+
+    /* ----------------end section 1-------------------- */
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+      @media (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media (max-width: 600px) {
+        .column {
+          flex: 100%;
+        }
